@@ -1,0 +1,11 @@
+#Using return statement
+def com(a,b):
+    return a*b
+t = com(4,5)         #returns the answer back to the place where it was called.
+print(t)
+#Using print statement
+def com(a,b):
+    print(a*b)
+t = com(4,5)        #prints the answer as the function is called.
+print(t)            #prints none because it has nothing stored in t.
+
